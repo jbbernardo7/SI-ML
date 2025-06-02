@@ -19,7 +19,7 @@ O **SVR (Support Vector Regression)** é uma extensão do SVM (Support Vector Ma
 ### Epsilon (ε)
 O parâmetro **epsilon** define uma margem de tolerância ao erro em torno da função de regressão. Apenas os pontos cujos resíduos (diferença entre valor real e previsto) excedem esta margem contribuem para o ajuste do modelo. Isto torna o SVR resistente a pequenas flutuações, já que apenas os pontos fora da "zona epsilon" afetam a solução.
 
-### vectores de Suporte
+### Vectores de Suporte
 No SVR apenas uma parte dos dados (**vectores de suporte**) influenciam diretamente a construção do modelo. Estes são os pontos que se encontram fora da margem epsilon e, por isso, determinam a posição e a forma da função de regressão. Os restantes pontos, dentro da margem, não afetam o modelo final, o que contribui para a eficiência e capacidade de generalização do SVR.
 
 ### Funções Kernel
@@ -83,7 +83,7 @@ O **MSE** (Mean Squared Error) mostra o erro médio das previsões: quanto menor
 
 #### Utilização de Memória
 
-| Kernel   | Nº vectores de Suporte | Tamanho Total do Modelo (bytes) |
+| Kernel   | Nº Vectores de Suporte | Tamanho Total do Modelo (bytes) |
 |----------|----------------------|--------------------|
 | Linear   | 351                  | 32660                |
 | RBF      | 353                  | 32844                |
@@ -108,7 +108,7 @@ O **MSE** (Mean Squared Error) mostra o erro médio das previsões: quanto menor
 
 #### Utilização de Memória
 
-| Kernel   | Nº vectores de Suporte | Tamanho Total do Modelo (bytes) |
+| Kernel   | Nº Vectores de Suporte | Tamanho Total do Modelo (bytes) |
 |----------|----------------------|--------------------|
 | Linear   | 347                  | 32292                |
 | RBF      | 349                  | 32476                |
@@ -133,7 +133,7 @@ O **MSE** (Mean Squared Error) mostra o erro médio das previsões: quanto menor
 
 #### Utilização de Memória
 
-| Kernel   | Nº vectores de Suporte | Tamanho Total do Modelo (bytes) |
+| Kernel   | Nº Vectores de Suporte | Tamanho Total do Modelo (bytes) |
 |----------|----------------------|--------------------|
 | Linear   | 348                  | 32384                |
 | RBF      | 353                  | 32844                |
@@ -158,7 +158,7 @@ O **MSE** (Mean Squared Error) mostra o erro médio das previsões: quanto menor
 
 #### Utilização de Memória
 
-| Kernel   | Nº vectores de Suporte | Tamanho Total do Modelo (bytes) |
+| Kernel   | Nº Vectores de Suporte | Tamanho Total do Modelo (bytes) |
 |----------|----------------------|--------------------|
 | Linear   | 349                  | 32476                |
 | RBF      | 349                  | 32476                |
