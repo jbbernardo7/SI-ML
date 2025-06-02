@@ -29,8 +29,9 @@ A árvore é construída de forma recursiva, dividindo o conjunto de dados com b
 A qualidade da divisão pode ser avaliada utilizando uma das seguintes métricas:
 #### Gini
 A métrica Gini mede a impureza de um nó, ou seja,  quantifica o quão misturadas estão as classes num dado subconjunto de dados. Quanto mais equilibradas estiverem as quantidades das classes num nó, maior será a impureza. Por outro lado, se todas as amostras do nó pertencerem à mesma classe, a impureza será 0, indicando um nó puro. Fórmula:
+
 $$
-\text{Gini} = 1 - \sum_{i=1}^k p_i^2
+\text{Gini} = 1 -\sum_{i=1}^k p_i^2
 $$
 
 - $p_i$ é o número de elementos da classe $i$ no nó.
