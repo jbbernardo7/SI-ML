@@ -113,13 +113,17 @@ A separação de dados para Treino e Teste é realizada de forma aleatória para
         accuracy                           0.91        45
 
 - **Precision**: Calcula quantos dos casos em que o modelo acertou são positivos.
+  
 $$ \text{Precision} = \frac{TP}{TP + FP} $$
 - **Recall**: Calcula quantos positivos fomos capaz de prever correctamente.
+  
 $$ \text{Recall} = \frac{TP}{TP + FN} $$
 - **F1-Score**:  Média harmónica de Precision e Recall.
+  
 $$ \text{Média Harmónica} = \frac{2ab}{a + b} $$
 - **Support**: Representa o número de amostras de cada classe no conjunto de teste.
 - **Accuracy** corresponde à proporção total de previsões corretas em relação ao número total de amostras avaliadas.
+  
 $$ \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN} $$
 
 #### Importância dos Atributos
